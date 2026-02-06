@@ -25,18 +25,25 @@ const Team = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-start gap-8">
-          <div className="md:w-16 flex md:flex-col items-center justify-center">
-            <span
-              className="text-[#8E8E8E]  text-[2.75rem] font-bold tracking-widest md:-rotate-90 md:whitespace-nowrap"
-              style={{
-                writingMode: "vertical-rl",
-                textOrientation: "mixed",
-                transform: "rotate(180deg)",
-              }}
-            >
-              NOSSA EQUIPE
-            </span>
-          </div>
+          <div className="md:w-16 flex items-center justify-center md:flex-col">
+  <span
+    className="
+      text-[#8E8E8E]
+      text-[2.2rem]
+      font-bold
+      tracking-widest
+      text-center
+
+      md:text-[2.75rem]
+      md:text-left
+      md:whitespace-nowrap
+      md:[writing-mode:vertical-rl]
+      md:rotate-180
+    "
+  >
+    NOSSA EQUIPE
+  </span>
+</div>
           <div className="flex-1 grid md:grid-cols-3 gap-8">
             {team.map((member) => (
               <div key={member.id} className="relative group">
@@ -56,7 +63,8 @@ const Team = () => {
                 <div className="flex items-center gap-4 mt-4 justify-center">
                   <a
                     href="#"
-                    className="text-white/90 hover:text-white transition-colors">
+                    className="text-white/90 hover:text-white transition-colors"
+                  >
                     <svg
                       className="w-5 h-5 fill-white"
                       fill="#ffffff"

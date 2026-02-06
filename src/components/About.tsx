@@ -25,7 +25,7 @@ const About = () => {
               className="col-span-2 mx-auto w-full md:w-1/2 h-64 object-cover rounded-lg"
             />
           </div>
-          <div className="text-text-white -mt-16">
+          <div className="text-text-white mt-8 md:-mt-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 font-serif">
               Sobre
             </h2>
