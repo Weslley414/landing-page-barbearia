@@ -14,9 +14,9 @@ const Hero = ({ onOpenModal }: HeroProps) => {
       <div className="overlay-dark" />
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4 leading-tight">
-          ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.
+          Estilo é um reflexo da sua atitude e sua personalidade.
         </h1>
-        <p className="text-muted-foreground mb-8 text-sm md:text-base">
+        <p className="text-muted-foreground mb-8 text-sm md:text-base font-semibold">
           HORÁRIO DE FUNCIONAMENTO: 09:00 às 18:00
         </p>
         <button onClick={onOpenModal} className="btn-gold">

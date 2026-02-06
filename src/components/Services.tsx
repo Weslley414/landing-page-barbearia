@@ -39,12 +39,12 @@ const Services = () => {
                 <img
                   src={service.image}
                   alt={service.name}
-                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                  className="w-full aspect-[4/3] object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-background font-medium">{service.name}</span>
-                <span className="bg-primary text-primary-foreground px-3 py-1 rounded text-sm font-medium">
+                <span className="bg-[#0D121E] text-white px-3 py-1 rounded text-sm font-medium">
                   {service.price}
                 </span>
               </div>
